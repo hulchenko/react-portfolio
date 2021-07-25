@@ -1,9 +1,11 @@
 import React from 'react';
 import home1 from '../img/home1.png';
+//Styles
+import styled from 'styled-components';
 
 const AboutSection = () => {
   return (
-    <div>
+    <div className="about">
       <div className="description">
         <div className="title">
           <div className="hide">
@@ -22,10 +24,12 @@ const AboutSection = () => {
         <button>Contact</button>
       </div>
       <div className="image">
-        <img src={home1} alt="some photo description" />
+        <img src={home1} alt="professional" />
       </div>
     </div>
   );
 };
+
+//Styling
 
 export default AboutSection;
