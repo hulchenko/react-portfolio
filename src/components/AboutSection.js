@@ -5,31 +5,61 @@ import styled from 'styled-components';
 
 const AboutSection = () => {
   return (
-    <div className="about">
-      <div className="description">
+    <About>
+      <Description>
         <div className="title">
-          <div className="hide">
+          <Hide>
             <h2>Lorem ipsum dolor sit.</h2>
-          </div>
-          <div className="hide">
+          </Hide>
+          <Hide>
             <h2>
               Lorem <span>ipsum dolor</span> sit.
             </h2>
-          </div>
-          <div className="hide">
+          </Hide>
+          <Hide>
             <h2>Lorem ipsum dolor sit.</h2>
-          </div>
+          </Hide>
         </div>
         <p>Lorem ipsum dolor sit amet.</p>
         <button>Contact</button>
-      </div>
-      <div className="image">
+      </Description>
+      <Image>
         <img src={home1} alt="professional" />
-      </div>
-    </div>
+      </Image>
+    </About>
   );
 };
 
 //Styling
+const About = styled.div`
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 10rem;
+  color: white;
+`;
+
+const Description = styled.div`
+  flex: 1;
+  padding-right: 5rem;
+  h2 {
+    font-weight: lighter;
+  }
+`;
+
+const Image = styled.div`
+  flex: 1;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+`;
+
+const Hide = styled.div`
+  overflow: hidden;
+`;
 
 export default AboutSection;
