@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
+    font-family: 'Roboto Mono', monospace;
     background: #1b1b1b;
 }
 
@@ -22,6 +23,7 @@ button {
     background: transparent;
     color: white;
     transition: all 0.5 ease;
+    font-family: 'Roboto Mono', monospace;
     &:hover{
         background-color: #23d997;
         color: white;
