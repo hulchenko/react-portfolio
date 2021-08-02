@@ -14,41 +14,41 @@ const ServicesSection = () => {
     <Services>
       <Description>
         <h2>
-          Lorem <span>ipsum</span> dolor sit.
+          <span>Services</span>
         </h2>
         <Cards>
           <Card>
             <div className="icon">
-              <img src={clock} alt="icon" />
+              <img alt="icon" src={clock} />
               <h3>Fast</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
             </div>
+            <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={teamwork} alt="icon" />
-              <h3>Teamwork</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <img alt="icon" src={teamwork} />
+              <h3>Efficient</h3>
             </div>
+            <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={diaphragm} alt="icon" />
-              <h3>Diaphragm</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <img alt="icon" src={diaphragm} />
+              <h3>Focused</h3>
             </div>
+            <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={money} alt="icon" />
-              <h3>Cheap</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <img alt="icon" src={money} />
+              <h3>Affordable</h3>
             </div>
+            <p>Lorem ipsum dolor sit amet.</p>
           </Card>
         </Cards>
       </Description>
       <Image>
-        <img src={home2} alt="camera" />
+        <img alt="camera" src={home2} />
       </Image>
     </Services>
   );

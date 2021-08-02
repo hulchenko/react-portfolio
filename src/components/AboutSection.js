@@ -10,18 +10,21 @@ const AboutSection = () => {
       <Description>
         <div className="title">
           <Hide>
-            <h2>Lorem ipsum dolor sit.</h2>
+            <h2>We work to make</h2>
           </Hide>
           <Hide>
             <h2>
-              Lorem <span>ipsum dolor</span> sit.
+              your <span>dreams</span> come
             </h2>
           </Hide>
           <Hide>
-            <h2>Lorem ipsum dolor sit.</h2>
+            <h2>true.</h2>
           </Hide>
         </div>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>
+          Contact us for any photography or videography ideas that you have. We
+          have professionals with amazing skills.
+        </p>
         <button>Contact</button>
       </Description>
       <Image>
